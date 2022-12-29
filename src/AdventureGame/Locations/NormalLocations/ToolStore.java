@@ -138,7 +138,7 @@ public class ToolStore extends NormalLocation{
         if (selectArmor == 0){
             LocationCase();
         }
-        if (armor.getCost() > this.getGame().getMoney()){
+        else if(armor.getCost() > this.getGame().getMoney()){
             System.out.println("Get out of here, don't come here again without money.");
         }
         else if(!armor.isHaveArmor()){
