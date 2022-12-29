@@ -26,12 +26,11 @@ public class SafeHouse extends NormalLocation{
         System.out.print("Please select what you want to do: ");
         int selectDo = input.nextInt();
         while(selectDo < 0 || selectDo > 1){
-            System.out.print("You entered an invalid value, please enter a value between 1 and 3: ");
+            System.out.print("You entered an invalid value, please enter a value between 0 and 1: ");
             selectDo = input.nextInt();
         }
         switch(selectDo){
             case 0:
-                getGame().selectLocation();
                 break;
             case 1:
                 System.out.println("\n============================================");
@@ -48,6 +47,7 @@ public class SafeHouse extends NormalLocation{
                     }
                 }
                 System.out.println("\n============================================");
+                break;
         }
     }
 }

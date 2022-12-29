@@ -33,14 +33,13 @@ public class ToolStore extends NormalLocation{
 
         switch (selectTool){
             case 0:
-                getGame().selectLocation();
                 break;
             case 1:
-                System.out.println("\n*****  Balance: " + getGame().getMoney() + "  *****");
+                System.out.println("\n*****  Balance: " + getGame().getMoney() + " gold *****");
                 selectWeapon();
                 break;
             case 2:
-                System.out.println("\n*****  Balance: " + getGame().getMoney() + "  *****");
+                System.out.println("\n*****  Balance: " + getGame().getMoney() + " gold *****");
                 selectArmor();
                 break;
         }

@@ -14,7 +14,6 @@ public class Cave extends WarLocation{
     @Override
     public void LocationCase() {
 
-        this.setAlive(true);
         for (int i = 1; i <= this.enemy.randomEnemyAmount(); i++) {
             int whoStarts = (int)(Math.random() * 2) + 1;
             if (i == 1) {

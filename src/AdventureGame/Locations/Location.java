@@ -9,7 +9,7 @@ public abstract class Location {
     private Game game;
     private String name;
     private int id;
-    private boolean isAlive;
+    private boolean isAlive = true;
     protected static Scanner input = new Scanner(System.in);
     public Location(Game game, String name, int id) {
         this.game = game;

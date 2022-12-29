@@ -111,11 +111,6 @@ public class Game {
     Location river = new River(this);
     Location[] locationList = {safeHouse, toolStore, forest, cave, river};
 
-    public void winCheck(){
-        this.getInventory().setWood(false);
-        this.getInventory().setFood(false);
-        this.getInventory().setWater(false);
-    }
     public void selectLocation(){
 
         Location location = null;
@@ -162,8 +157,6 @@ public class Game {
                 System.out.println("!!GAME OVER!!");
                 break;
             }
-
-
         }
     }
 

@@ -1,9 +1,9 @@
 package AdventureGame;
 
 public class Inventory {
-    private boolean water;
-    private boolean food;
-    private boolean wood;
+    private boolean water = false;
+    private boolean food = false;
+    private boolean wood = false;
 
     public boolean isWater() {
         return water;
