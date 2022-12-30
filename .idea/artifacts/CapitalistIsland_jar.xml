@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CapitalistIsland:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CapitalistIsland_jar</output-path>
+    <root id="archive" name="CapitalistIsland.jar">
+      <element id="module-output" name="CapitalistIsland" />
+    </root>
+  </artifact>
+</component>
