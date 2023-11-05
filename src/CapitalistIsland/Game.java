@@ -31,7 +31,7 @@ public class Game {
         Enemy bear = new Bear();
 
         System.out.println("\nHi warrior... You are in an island. You need first some food to live here.\n" +
-                "But do not forget, everything has a cost in this island.\n" +
+                "But don't forget, everything has a cost in this island.\n" +
                 "You have to battle to some enemies to collect the items you can cook and make some money.\n" +
                 "You can find lots of wood in forest and you must kill lords of the forest, vampires to collect wood.\n" +
                         "===================================\n" +
